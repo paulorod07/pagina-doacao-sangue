@@ -1,17 +1,27 @@
 {
-  "name": "pagina-doa-sangue",
+  "name": "pagina-doacao-sangue",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Esta página foi criada utilizando tecnologias como CSS grid layout, Flexbox e Javascript",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
-    "nunjucks": "^3.2.0"
-  }
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulorod07/pagina-doacao-sangue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulorod07/pagina-doacao-sangue/issues"
+  },
+  "homepage": "https://github.com/paulorod07/pagina-doacao-sangue#readme"
 }

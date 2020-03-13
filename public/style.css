@@ -33,6 +33,11 @@ main h2 span{
     color: #ff4f4f;
 }
 
+.logo {
+    width: 120px;
+    margin: 70px 0;
+}
+
 .form{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -128,6 +133,7 @@ footer{
 
 .doador p{
     margin-top: 24px;
+    margin-bottom: 64px;
     font-size: 14px;
 }
 
